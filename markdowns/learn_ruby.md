@@ -8,7 +8,7 @@ background: https://source.unsplash.com/collection/94734566/1920x1080
 class: 'text-center'
 # https://sli.dev/custom/highlighters.html
 highlighter: shiki
-colorSchema: 'dark'
+# colorSchema: 'dark'
 # some information about the slides, markdown enabled
 info: |
   ## Ruby 培训资料
