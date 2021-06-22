@@ -10,6 +10,10 @@ Slidev 需要 Node.js 的版本 >=14.0.0
 nvm use v16.2.0
 ```
 
+## 可以尝试访问：
+
+- [Ruby 培训资料](https://rccgroup.github.io/slidev/docs/learn_ruby)
+
 ## 操作提示
 ```ruby
 npx slidev --help
@@ -22,7 +26,7 @@ npx slidev --help
 
 注意打包是的一些参数：
 ```
-npx slidev build 'markdowns/learn_ruby.md' --base="/xx-project/learn_ruby" --out='docs/learn_ruby'
+npx slidev build 'markdowns/learn_ruby.md' --base="slidev/docs/learn_ruby" --out='docs/learn_ruby'
 ```
 
 具体命令行参数，可以查看 slidev 源码的 `packages/slidev/node/cli.ts`
@@ -69,4 +73,5 @@ slidev export [entry] --format png
 
 ## 本地启动之后，可以在浏览器进行编辑
 - [编辑器整合 | Slidev](https://cn.sli.dev/guide/editors.html)
+
 
