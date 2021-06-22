@@ -12,8 +12,8 @@ nvm use v16.2.0
 
 ## 可以尝试访问：
 
-- [Ruby 培训资料](https://rccgroup.github.io/slidev/docs/learn_ruby)
-
+1. [Ruby 培训资料](https://rccgroup.github.io/slidev/docs/learn_ruby)
+2. ......
 ## 操作提示
 ```ruby
 npx slidev --help
@@ -46,14 +46,21 @@ npx slidev build 'markdowns/learn_ruby.md' --base="slidev/docs/learn_ruby" --out
 
 然后就可以启动预览：
 - `npx slidev 'markdowns/some_example.md'`
-- 或者  `npm run dev 'markdowns/some_example.md'`
+- 或者 `npm run dev 'markdowns/some_example.md'`
+
+修改完毕之后，进行打包：
+- `npx slidev build 'markdowns/some_example.md' --base="slidev/docs/some_example" --out='docs/some_example'`
+
+然后提交文件。
+
+稍等片刻便可访问：`https://rccgroup.github.io/slidev/docs/some_example`
 
 ## 其他配置
 如有需要，可以在 `vite.config.ts` 设置。
 
 
 ## 发布到 github pages
-在相关项目 —> setting  —> pages，开启托管，执行对应目录即可。
+在相关项目 —> setting  —> pages，开启托管，指定对应目录即可。
 
 这样，相关的演示文稿即可在线访问。
 

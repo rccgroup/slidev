@@ -248,6 +248,9 @@ obj.y   # => "y"
 
 这叫做 “打开类” (Open class)。
 
+
+> Note:
+>
 > 换句话说，可以在任何时候打开一个已经存在的类，并向里面添加新的方法——包括 String 和 Array 这样的标准类。
 
 </div>
@@ -346,6 +349,8 @@ Trig::PI
 
 ---
 
+<div class="grid grid-cols-2 gap-x-4">
+<div>
 2、include
 
 当类 include 模块之后，就相当于给类添加了「实例方法」。
@@ -358,6 +363,9 @@ end
 Sample.new.sin
 ```
 
+</div>
+
+<div>
 3、extend
 
 当类 extend 模块以后，就相当于给类添加了「类方法」。
@@ -369,6 +377,13 @@ end
 
 Sample.sin
 ```
+
+</div>
+</div>
+
+<br>
+<br>
+<br>
 
 这种  `include / extend` 的能力，被称为 `mixin`  。
 
