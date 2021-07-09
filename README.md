@@ -13,7 +13,8 @@ nvm use v16.2.0
 ## 可以尝试访问：
 
 1. [Ruby 培训资料](https://rccgroup.github.io/slidev/docs/learn_ruby)
-2. ......
+2. [babel编译之解析阶段](https://rccgroup.github.io/slidev/docs/babel_to_ast)
+
 ## 操作提示
 ```ruby
 npx slidev --help
